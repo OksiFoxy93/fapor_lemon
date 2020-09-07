@@ -285,7 +285,7 @@ header nav ul li:hover:after{
     width: 100%;
     background-color: #b5a263;
     font: 11px/27px 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: white;
     font-weight: 400;
     border: none;
 }
