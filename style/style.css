@@ -172,6 +172,7 @@ header nav ul li:hover:after{
 
 .reviews{
     background-color: #f7f7f7;
+    text-align: center;
 }
 
 .reviews .our_clients{
@@ -211,8 +212,9 @@ header nav ul li:hover:after{
     font: 11px/19px 'Open Sans', sans-serif;
     font-weight: 300;
     color: #000000;
-    text-align: center;
     margin-bottom: 36px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .reviews .our_clients .name{
@@ -222,7 +224,6 @@ header nav ul li:hover:after{
     font-weight: 600;
     display: block;
     margin: auto;
-    text-align: center;
 }
 
 .reviews .our_clients .position{
@@ -231,7 +232,39 @@ header nav ul li:hover:after{
     font-weight: 400;
     display: block;
     margin: auto;
-    text-align: center;
+}
+
+.reviews .owl-carousel .img-owl {
+    max-width: 70px;
+    display: inline-block;
+}
+
+.owl-nav .owl-prev {
+     width: 20px;
+     height: 20px;
+     position: absolute;
+     left: 0;
+     top: 120px;
+     font-weight: 900!important;
+     font-family: "Font Awesome 5 Free"!important;
+ }
+
+.owl-nav .owl-prev:before {
+    content: "\f104";
+}
+
+.owl-nav .owl-next {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    font-weight: 900!important;
+    font-family: "Font Awesome 5 Free"!important;
+}
+
+.owl-nav .owl-next:before {
+    content: "\f105";
 }
 
 .contacts {
